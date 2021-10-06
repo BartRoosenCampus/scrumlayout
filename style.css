@@ -8,6 +8,41 @@ body {
     width: 100%;
 }
 
+nav {
+    background-color: #bfdcbd;
+}
+.nav-button {
+    padding: 1em;
+    width: 150px;
+    border: none;
+    background-color: #bfdcbd;
+    color: #385736;
+}
+.nav-active {
+    background-color: #ABD7A8;
+    color: white;
+}
+.nav-button:hover {
+    text-decoration: underline;
+}
+
+.nav-active:hover {
+    text-decoration: none;
+}
+
+.nav-input {
+    padding: .5em;
+    border: none;
+    float: right;
+    margin-top: .5em;
+}
+
+.nav-select {
+    border:none;
+    padding: 0.9em;
+    background-color: #bfdcbd;
+}
+
 .center {
     width: 80%;
     margin: 0 auto;
@@ -18,7 +53,7 @@ body {
 }
 
 .logo {
-    width: 40%;
+    width: 30%;
 }
 
 .footer {
